@@ -1,6 +1,4 @@
 # COSC4806_Project
-
-Project (Due December 4)
 Create a website with a login
 3 types of users: Admin, staff, manager
 Admin can do everything. Staff can only insert names and they can only update names they have previously submitted. Managers can insert and update all names and can only run reports on their own staff.
@@ -14,3 +12,23 @@ Create a report page that allows users to run custom reports based on dropdowns 
 There should also be a phone list page that anyone can access. Name and phone number should be displayed. The table needs to be a datatable
 Site must be made with MVC and bootstrap. All functionality needs a link in the header menu.
 Site must also be mobile friendly (if you are properly using bootstrap, this will be done for you)
+Site search which will search for functionality (search for phone list) and can search for names of people in the DB
+The site has to be secure. Non-logged in users should not be able to do anything. Only appropriate users (staff/managers) should be able to see certain things. This cannot be hardcoded. You must use ACLs. 
+
+_____________________________
+MVC                  |   10% 
+-----------------------------
+DB/table structure   |   10% 
+-----------------------------
+Code Structure       |   10% 
+-----------------------------
+Bootstrap/Mobile     |    5%  
+-----------------------------
+PDO with bind        |    5%
+-----------------------------
+ACLs                 |    5%
+-----------------------------
+Extra                |    5%
+_____________________________
+Total                |   50%
+ 
